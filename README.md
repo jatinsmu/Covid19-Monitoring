@@ -1,4 +1,4 @@
-# Covid19-Monitoring
+# Covid19-Monitoring Solution
 ## Description
 
 A continuous data pipeline on Hadoop using a number of different big data technologies and automated data lifecycle, from data ingestion of raw datafiles to the analysis and reporting of the most recent data available on any browser.
@@ -10,6 +10,12 @@ The ETL process is handled by a bash script that orchestrate the processes acros
 4. Analysis and reporting: uses HQL queries to extract data from the hive table and create data snapshots for reporting and visualization. The collection of data visualizations generated from each snapshot are combined into one html page that is hosted on the Linux server.
 
 The data visualization data loading process is part of the entire pipeline, therefore whenever the pipeline is executed the dashboard will be loaded with the most recent data to generate timely insights.
+
+## Usage
+extract.sh - For Data Ingestion and Storage to HDFS
+transform.py - For Data transformation and Processing
+viz.py - For Storing transformed data in Hive, querying using HQL and visualizing results
+driver.sh - For running the ETL pipeline as a batch
 
 ## Technologies Used
 ![Tech Used](/Pictures/Technologies_used.jpg)
