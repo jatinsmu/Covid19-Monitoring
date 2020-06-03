@@ -26,3 +26,6 @@ driver.sh - For running the ETL pipeline as a batch
 
 ## Solution Architecture
 ![Solution Architecture](/Pictures/Solution_Architecture.jpg)
+
+## Sample Visualization of Confirmed Cases
+![Visualization](/sample webpages/Sample Animation of Confirmed cases.gif)
