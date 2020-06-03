@@ -15,4 +15,4 @@ The data visualization data loading process is part of the entire pipeline, ther
 ![Tech Used](/Pictures/Solution_Architecture.jpg)
 
 ## Solution Architecture
-![Solution Architecture] (/Pictures/Solution_Architecture.jpg)
+![Solution Architecture](/Pictures/Solution_Architecture.jpg)
