@@ -13,9 +13,13 @@ The data visualization data loading process is part of the entire pipeline, ther
 
 ## Usage
 extract.sh - For Data Ingestion and Storage to HDFS
+
 transform.py - For Data transformation and Processing
+
 viz.py - For Storing transformed data in Hive, querying using HQL and visualizing results
+
 driver.sh - For running the ETL pipeline as a batch
+
 
 ## Technologies Used
 ![Tech Used](/Pictures/Technologies_used.jpg)
