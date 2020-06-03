@@ -12,7 +12,7 @@ The ETL process is handled by a bash script that orchestrate the processes acros
 The data visualization data loading process is part of the entire pipeline, therefore whenever the pipeline is executed the dashboard will be loaded with the most recent data to generate timely insights.
 
 ## Technologies Used
-![Tech Used](/Pictures/Solution_Architecture.jpg)
+![Tech Used](/Pictures/Technologies_used.jpg)
 
 ## Solution Architecture
 ![Solution Architecture](/Pictures/Solution_Architecture.jpg)
